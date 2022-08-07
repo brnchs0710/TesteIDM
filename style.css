@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: AdventPro-SemiBold;
+    src: url('./font/AdventPro-SemiBold.ttf');
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: AdventPro-Medium;
+    src: url('./font/AdventPro-Medium.ttf');
+    font-size: normal;
+    font-weight: normal;
+}
+
+body {
+    height: 100%;
+    width:50%;
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.imgLogo {
+    position: block;
+    width: 10em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.menu-cabecalho {
+    font-family: 'AdventPro-SemiBold', serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 170%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 80px;
+    list-style-type: none;
+    
+}
+
+.cabecalho-item {
+    color: white;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.cabecalho-item-figura {
+    height: 25px;
+    margin-top: 55px;
+    margin-left: 35px;
+}
+
+.imgVector {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgVectorPonto {
+    position: absolute;
+    width: 130px;
+    height: 15%;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+
+.imgVectorGrande {
+    width: 670px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.imgVectorVerde {
+    position: absolute;
+    width: 380px;
+    margin-left: 850px;
+    margin-top: -230px;
+}
+
+.titulo {
+    font-family: 'AdventPro-SemiBold', serif;
+    color: white;
+    font-size: 120px;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+.texto {
+    font-family: 'AdventPro-Medium', serif;
+    color: white;
+    font-size: 35px;
+    margin-left: 100px;
+}
+
+.botao {
+    font-family: 'AdventPro-Medium', serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    background-color: rgb(8, 73, 8);
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    width: 140px;
+}
+
+.imgVectorX {
+    position: absolute;
+    margin-left: 62%;
+    width: 100px;
+    margin-top: -120px;
+}
+
+.imgCirculoBranco {
+    position: absolute;
+    width: 200px;
+    margin-left: 80%;
+    margin-top: -200px;
+}
+
+.imgCirculoVerde {
+    position: absolute;
+    width: 200px;
+    margin-left: 70%;
+    margin-bottom: 30px;
+}
